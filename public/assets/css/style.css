@@ -1,0 +1,113 @@
+/* Use a single font and background color for the entire webpage */
+body {
+  font-family: "Titillium web";
+  background-color: #F8F9FA;
+  max-width: 1080px;
+  }
+/* Set maximum width for forms so they maintain a clean and spaced look */
+form {
+  width: 80%;
+  padding-top: 15px ;
+}
+/* Style navbars  */
+.topbar, .tab-lateral {
+  padding: 1.5rem 3%;
+  width: 100%;
+  font-weight: bold;
+  transition: 0.3s;
+}
+/* Set custom effects when hovering on lateral navbar elements*/
+.tab-lateral:hover {
+  padding-left: 25px;
+  background-color: #007BFF;
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+}
+/* Style lateral navbar */
+.sidebar {
+  margin: 1rem 5em;
+  width: 20%;
+  padding: 3px;
+}
+/* Style fixed "Welcome, User" message on top */
+.top-message {
+  padding: 0 3%;
+  margin-left: 1em;
+}
+/* Set spacing of elements inside form tag and "pills" */
+.form-control, .form-group, .rendered-form, .nav-pills, .top-message, .section, .tab-pane {
+  padding: 1rem;
+  max-width: 80rem;
+  text-align: left;
+}
+/* Style the space where tabs are going to show their content */
+.tab-pane {
+  position: absolute;
+  padding: 0 3%;
+  width: 100%;
+  margin-left: 1em;
+}
+/* Style for top nav items (list item) */
+.top-nav-item {
+  padding: 1rem 3.5rem;
+  text-align: center;
+}
+/* Style for top nav items (button) */
+.top-button {
+  width: 100%;
+  padding: 0 5rem;
+  margin: 0 0;
+}
+/* Animate on-hover effects for nav links */
+.nav-link {
+  transition: 0.3s;
+}
+.nav-link:hover {
+  padding-left: 25px;
+  font-weight: bold;
+}
+.nav-link:active {
+  background-color: green;
+  color: white;
+}
+/* Set size and spacing for "Save" button in "New Contact" form */
+.guardar-nuevo {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+/* Set spacing for top-left logo link */
+.logo-text {
+  padding: 0 30px;
+}
+/* Set spacing for "remite" tab */
+.tab-remite {
+  margin: auto;
+}
+/* Set styles for inputs and its placeholders inside form */
+.Formulario {
+  width: 100%;
+}
+/* General styling and animation for buttons */
+.btn {
+  text-align: center;
+  transition: 0.3s;
+  overflow: hidden;
+  width: 100%;
+}
+.btn:hover {
+  font-weight: bold;
+  overflow: hidden;
+}
+/* Style the single activator for expanding and collapsing lateral navbar and its animations */
+#activador-sidebar {
+  margin-left: 4em;
+  text-align: left;
+  width: 19.5%;
+  height: 3em;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#activador-sidebar:hover {
+  padding-left: 25px;
+}
